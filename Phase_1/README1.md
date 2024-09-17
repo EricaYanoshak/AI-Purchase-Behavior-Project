@@ -128,6 +128,11 @@ This dataset contains information on customer purchase behavior across various a
 
 ![Phase 1 Feature Importance Plots](http://localhost:8888/files/Challenges/Project_2/Phase_1/phase1_images/feature_importances_part1.png?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
 
+
+
+![feature_importances_part1](../Phase_1/Phase_1_images/feature_importances_part1.png)
+
+
 #### 7.1 Interpreting Feature Importance Results:
 - All three models resulted in the same 5 features being the least important: Gender, ProductCategory_1, ProductCategory_2, ProductCategory_3, and ProductCategory_4.
 
