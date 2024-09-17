@@ -190,9 +190,8 @@ Created an interactive dashboard (Dash App) that updates in real-time with dropd
 - **Interactive dashboard:** Makes it easy to explore how feature importance varies across models with just a few clicks.
 - **Customization:** Easily further enhance the dashboard by adding more visualizations, sliders, or filters.
 
-AI-Purchase-Behavior-Project/Phase_2/Phase_2_images/9.3Interactive Features Dashboard.png
-
-![9.3Dashboard](../Phase_2/Phase_2_images/9.3Dashboard.png)
+![9.4.1Dashboard](../Phase_2/Phase_2_images/9.4.1Dashboard.jpg)
+![9.4.2Dashboard](../Phase_2/Phase_2_images/9.4.2Dashboard.jpg)
 
 
 #### 9.4 Feature Importance Across Optimized Models: Insights and Conclusions
