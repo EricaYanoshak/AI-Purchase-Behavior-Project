@@ -44,7 +44,7 @@ This dataset contains information on customer purchase behavior across various a
 
 # Repository Files
 ## Phase 2
-- [Phase 2 Notebook Folder:](http://localhost:8888/lab/tree/Challenges/Project_2/Phase_2)
+- [Phase 2 Notebook Folder:](../Phase_2)
     - [Phase_2_ipynb](http://localhost:8888/files/Challenges/Project_2/Phase_2/Project2_Phase2_Final.ipynb?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
     - [Phase_2_ReadMe](http://localhost:8888/files/Challenges/Project_2/Phase_2/README2.md?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
     - [Phase 2 Image Folder](http://localhost:8888/lab/tree/Challenges/Project_2/Phase_2/phase_2_images)
@@ -114,8 +114,7 @@ This dataset contains information on customer purchase behavior across various a
 
 #### 5.3 Model Performance Results
 
-![Results](http://localhost:8888/files/Challenges/Project_2/phase_2/phase_2_images/5.3Results.png?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
-
+![5.3Results](../Phase_2/Phase_2_images/5.3Results.png)
 
 - **Random Forest** performs best given it achieves the highest scores across all key metrics—accuracy, precision, F1 score, and ROC AUC—indicating it strikes the best balance between making correct predictions and avoiding both false positives and false negatives. 
 - **Decision Tree** performs reasonably well, especially in recall (83.59%) and overall accuracy (90.67%), but it doesn't match Random Forest's precision and overall balance between metrics.
@@ -149,18 +148,21 @@ Therefore Random Forest will be used for the next part, optimizing the model.
 
 #### 7.2 Optimized Model Scores Comparisons
 
-![7.2OptModels](http://localhost:8888/files/Challenges/Project_2/phase_2/phase_2_images/7.2OptModels.png?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
+![7.2OptModels](../Phase_2/Phase_2_images/7.2OptModels.png)
 
 #### 7.3 Optimized Model Results
 - While all models perform similarly, **SMOTE** performs best overall, particularly in handling class imbalance, with superior recall, F1 score, and ROC AUC. Its ability to generate synthetic minority class examples helps ensure balanced training, leading to better model performance in imbalanced scenarios.
 - The **Stacking** model performs well in terms of precision and generalization but doesn’t handle the minority class as effectively as SMOTE, making it slightly less suitable in class imbalance scenarios. Overall, it is a strong performer but not the top choice when dealing with imbalanced datasets.
 - **Random Search** is good at optimizing hyperparameters but it does not handle class imbalance effectively, leading to suboptimal performance, especially in terms of minority class recall and F1 score. 
 
-![7.2Opt_Perform_Eval](http://localhost:8888/files/Challenges/Project_2/phase_2/phase_2_images/7.2Opt_Perform_Eval.png?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
+
+![7.2Opt_Perform_Eval](../Phase_2/Phase_2_images/7.2Opt_Perform_Eval.png)
+
 
 #### 7.4 Interactive Line Plot
 - Created an interactive line plot to interact with optimized model performance across evaluation metrics.
-![7.4Interactivelineplot](http://localhost:8888/files/Challenges/Project_2/Phase_2/phase_2_images/7.4Interactivelineplot.jpg?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
+![7.4Interactivelineplot](../Phase_2/Phase_2_images/7.4Interactivelineplot.jpg)
+
 
 ## Part 4: Optimized Model Feature Importance, Interpretation, and Visualizations 
 
@@ -174,11 +176,13 @@ Therefore Random Forest will be used for the next part, optimizing the model.
 
 #### 9.1 Feature Importance Across Optimized Models
 
-![Feature Importance Across Optimized Models](http://localhost:8888/files/Challenges/Project_2/Phase_2/phase_2_images/9.1Feature%20Importance%20Across%20Optimized%20Models.png?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
+![9.1FeaturesOptimized](../Phase_2/Phase_2_images/9.1FeaturesOptimized.png)
 
 #### 9.2 Interactive Line Plot
 - Created an interactive line plot to interact with optimized model performance across Feature Importance scores.
-![interactivelineplot](http://localhost:8888/files/Challenges/Project_2/phase_2/phase_2_images/7.4interactivelineplot.jpg?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
+
+![9.2interactivelineplot](../Phase_2/Phase_2_images/9.2interactivelineplot.jpg)
+
 
 #### 9.3 Interactive Dashboard for Feature Importance Using Plotly Dash
 Created an interactive dashboard (Dash App) that updates in real-time with dropdown filters and sliders using Plotly Dash to visualize feature importance across optimized models. Highlights include:
@@ -186,8 +190,9 @@ Created an interactive dashboard (Dash App) that updates in real-time with dropd
 - **Interactive dashboard:** Makes it easy to explore how feature importance varies across models with just a few clicks.
 - **Customization:** Easily further enhance the dashboard by adding more visualizations, sliders, or filters.
 
+AI-Purchase-Behavior-Project/Phase_2/Phase_2_images/9.3Interactive Features Dashboard.png
 
-![Interactive](http://localhost:8888/files/Challenges/Project_2/Phase_2/phase_2_images/9.3Interactive%20Features%20Dashboard.png?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
+![9.3Dashboard](../Phase_2/Phase_2_images/9.3Dashboard.png)
 
 
 #### 9.4 Feature Importance Across Optimized Models: Insights and Conclusions

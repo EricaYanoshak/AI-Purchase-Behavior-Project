@@ -125,11 +125,6 @@ This dataset contains information on customer purchase behavior across various a
 ### Step 7: Visualizing Feature Importances
 - Visualizations enhance the interpretability of feature importances, making it easier to communicate insights.
 
-
-![Phase 1 Feature Importance Plots](http://localhost:8888/files/Challenges/Project_2/Phase_1/phase1_images/feature_importances_part1.png?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
-
-
-
 ![feature_importances_part1](../Phase_1/Phase_1_images/feature_importances_part1.png)
 
 
@@ -142,12 +137,22 @@ To gather more insight into each feature and how they impact Purchase Status, sl
 ### Purchase Status by Time Spent on Website
 - The majority of those who did not make a purchase spent less than 30 minutes on the website (64% vs. 36%), where the opposite can be said for those who did make a purchase with 75% spending 30 minutes or more on the website prior to their purchase.
 
-![Purchase Status by Time Spent on Website](http://localhost:8888/files/Challenges/Project_2/Phase_1/phase1_images/PurchaseStatusby_Website.png?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
-
+![PurchaseStatusby_Website](../Phase_1/Phase_1_images/PurchaseStatusby_Website.png)
 
 ### Purchase Status by Loyalty Program Participation
- - Loyal Program participation did not show to have an impact on those who did make a purchase as Less than 50% who made a purchase were enrolled in the Loyalty Program, it does seem to impact those who did not make a purchased as 80% of those who did NOT make a  purchase, were not part of the Loyalty Program
- - ![Purchase Status by Loyalty Program Participation](http://localhost:8888/files/Challenges/Project_2/Phase_1/phase1_images/PurchaseStatusby_LP.png?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
+ - Loyal Program participation did not show to have an impact on those who did make a purchase as less than 50% who made a purchase were enrolled in the Loyalty Program. It does seem to impact those who did not make a purchased as 80% of those who did NOT make a  purchase, were not part of the Loyalty Program
+
+![PurchaseStatusby_LP](../Phase_1/Phase_1_images/PurchaseStatusby_LP.png)
+
+### Purchase Status by Discounts Availed
+ - Over 50% of those who made a purchase were provided with 3 or more discounts. Over 50% who did not make a purchase had 2 or less discounts availed.
+
+![PurchaseStatusby_discounts](../Phase_1/Phase_1_images/PurchaseStatusby_discounts.png)
+
+### Purchase Status by Age
+ - Over 50% of those who made a purchase were 40 years old or younger. Whereas the majority of those who did not make a purchase were 41 years old or over.
+
+![PurchaseStatusby_age](../Phase_1/Phase_1_images/PurchaseStatusby_age.png)
 
 
 # Noteworthy Pain Points and Learning Experiences
