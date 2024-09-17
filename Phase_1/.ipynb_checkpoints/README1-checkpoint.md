@@ -33,18 +33,18 @@ This dataset contains information on customer purchase behavior across various a
 
 # Repository Files
 ## Phase 1
-- [Phase 1 Notebook Folder:](http://localhost:8888/lab/tree/Challenges/Project_2/Phase_1)  
-    - [Phase_1_ipynb](http://localhost:8888/files/Challenges/Project_2/Phase_1/Project2_Part1_final.ipynb?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
-    - [Phase_1_ReadMe](http://localhost:8888/files/Challenges/Project_2/Phase_1/README1.md?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
-    - [Phase 1 Image Folder](http://localhost:8888/lab/tree/Challenges/Project_2/Phase_1/phase1_images)
+- [Phase 1 Notebook Folder:](../Phase_1)  
+    - [Phase_1_ReadMe](../Phase_1/README1.md)
+    - [Phase_1_ipynb](../Phase_1/Project2_Part1_final.ipynb)
+    - [Phase 1 Image Folder](../Phase_1/Phase_1_images)
+
 ### Dataset Files
 - [Predicting Customer Purchase Behavior Dataset](https://drive.google.com/file/d/16U50yowgGxdagBeJdFnO-f8FloBKS-Fs/view)
-- [oring_df Dataframe](http://localhost:8888/files/Challenges/Project_2/Project_2_Files/oring_customer_purchase_data.csv?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
+- [oring_df Dataframe](../Project_2_Files/oring_customer_purchase_data.csv)
+
 ### Presentation Files
-- [Presentation in PDF form](http://localhost:8888/lab/tree/Challenges/Project_2/Project_2_Presentation.pdf)
+- [Presentation in PDF form](../Project_2_Files/Project_2_Presentation.pdf)
 - [Presentation in Google Powerpoint form](https://docs.google.com/presentation/d/1mbZxJYl2kmvrOtxgugkeUxmTGcqD68tFVBBpztCAZHs/edit?usp=sharing)
-
-
 
 
 # Methodology
@@ -164,4 +164,4 @@ I am hoping that Removing the features that scored lowest in feature importance 
 # Resources Consulted 
 - To complete this project, I relied heavily on class notes and activities, specifically focusing on weeks 11 - 14. 
 - I also took advantage of **[Xpert Learning Assistant](https://bootcampspot.instructure.com/courses/6141/external_tools/313)** to help with coding errors.
-
+- This project utilized assistance from [ChatGPT](https://openai.com/chatgpt), an AI language model developed by OpenAI, for generating code snippets, explanations, and guidance.

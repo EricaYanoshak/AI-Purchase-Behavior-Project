@@ -45,14 +45,16 @@ This dataset contains information on customer purchase behavior across various a
 # Repository Files
 ## Phase 2
 - [Phase 2 Notebook Folder:](../Phase_2)
-    - [Phase_2_ipynb](http://localhost:8888/files/Challenges/Project_2/Phase_2/Project2_Phase2_Final.ipynb?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
-    - [Phase_2_ReadMe](http://localhost:8888/files/Challenges/Project_2/Phase_2/README2.md?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
-    - [Phase 2 Image Folder](http://localhost:8888/lab/tree/Challenges/Project_2/Phase_2/phase_2_images)
+    - [Phase 2 ReadMe](../Phase_2/README2.md)
+    - [Phase_2_ipynb](../Phase_2/Project2_Phase2_Final.ipynb)
+    - [Phase 2 Images](../Phase_2/Phase_2_images)
+   
 ### Dataset Files
 - [Predicting Customer Purchase Behavior Dataset](https://drive.google.com/file/d/16U50yowgGxdagBeJdFnO-f8FloBKS-Fs/view)
-- [oring_df Dataframe](http://localhost:8888/files/Challenges/Project_2/Project_2_Files/oring_customer_purchase_data.csv?_xsrf=2%7C0fdc4574%7Cf623f6cf389788fd6ed6106d5a8f5d6b%7C1726108217)
+- [oring_df Dataframe](../Project_2_Files/oring_customer_purchase_data.csv)
+
 ### Presentation Files
-- [Presentation in PDF form](http://localhost:8888/lab/tree/Challenges/Project_2/Project_2_Presentation.pdf)
+- [Presentation in PDF form](../Project_2_Files/Project_2_Presentation.pdf)
 - [Presentation in Google Powerpoint form](https://docs.google.com/presentation/d/1mbZxJYl2kmvrOtxgugkeUxmTGcqD68tFVBBpztCAZHs/edit?usp=sharing)
 
 
