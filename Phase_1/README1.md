@@ -67,6 +67,7 @@ This dataset contains information on customer purchase behavior across various a
 #### 2.3 Exploratory Data Analysis (EDA)
 - Conducted EDA to understand the relationships in the data, find the split to be 57% No Purchases and 43% Purchases
 
+![2.3eda](../Phase_1/Phase_1_images/2.3eda.png)
 
 ## Part 2: Training, Testing, Implementing, Evaluating and Comparing
 
@@ -132,27 +133,41 @@ This dataset contains information on customer purchase behavior across various a
 - All three models resulted in the same 5 features being the least important: Gender, ProductCategory_1, ProductCategory_2, ProductCategory_3, and ProductCategory_4.
 
 ## Part 4: Additional Exploration Questions
+
+### Step 8: Purchased vs Not Purchased  
 To gather more insight into each feature and how they impact Purchase Status, sliced the df_oring into 2 separate dataframes **no_purchase_df** and **yes_purchase_df.**  Noteworthy insights are as follows: 
 
-### Purchase Status by Time Spent on Website
+#### 8.1 Purchase Status by Time Spent on Website
 - The majority of those who did not make a purchase spent less than 30 minutes on the website (64% vs. 36%), where the opposite can be said for those who did make a purchase with 75% spending 30 minutes or more on the website prior to their purchase.
 
 ![PurchaseStatusby_Website](../Phase_1/Phase_1_images/PurchaseStatusby_Website.png)
 
-### Purchase Status by Loyalty Program Participation
- - Loyal Program participation did not show to have an impact on those who did make a purchase as less than 50% who made a purchase were enrolled in the Loyalty Program. It does seem to impact those who did not make a purchased as 80% of those who did NOT make a  purchase, were not part of the Loyalty Program
+#### 8.2 Purchase Status by Age
+ - **Yes:** 73% of those who made a purchase were 50 years old or younger.
+ - **Yes:** 58% of those who made a purchase were 40 years old or younger.
+ - **No:** 73% of those who did not make a purchase were 40 years old or older. 
 
-![PurchaseStatusby_LP](../Phase_1/Phase_1_images/PurchaseStatusby_LP.png)
+![PurchaseStatusby_age](../Phase_1/Phase_1_images/PurchaseStatusby_age.png)
 
-### Purchase Status by Discounts Availed
+
+![8.2agerange](../Phase_1/Phase_1_images/8.2agerange.png)
+
+#### 8.3 Purchase Status by Income
+ - **Yes:** 
+ - **No:** 
+
+![8.3incomerange](../Phase_1/Phase_1_images/8.3incomerange.png)
+
+#### 8.3 Purchase Status by Discounts Availed
  - Over 50% of those who made a purchase were provided with 3 or more discounts. Over 50% who did not make a purchase had 2 or less discounts availed.
 
 ![PurchaseStatusby_discounts](../Phase_1/Phase_1_images/PurchaseStatusby_discounts.png)
 
-### Purchase Status by Age
- - Over 50% of those who made a purchase were 40 years old or younger. Whereas the majority of those who did not make a purchase were 41 years old or over.
+#### 8.4 Purchase Status by Loyalty Program Participation
+ - Loyal Program participation did not show to have an impact on those who did make a purchase as less than 50% who made a purchase were enrolled in the Loyalty Program. It does seem to impact those who did not make a purchased as 80% of those who did NOT make a  purchase, were not part of the Loyalty Program
 
-![PurchaseStatusby_age](../Phase_1/Phase_1_images/PurchaseStatusby_age.png)
+![PurchaseStatusby_LP](../Phase_1/Phase_1_images/PurchaseStatusby_LP.png)
+
 
 
 # Noteworthy Pain Points and Learning Experiences

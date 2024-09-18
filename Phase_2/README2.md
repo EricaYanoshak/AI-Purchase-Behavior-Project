@@ -124,6 +124,7 @@ This dataset contains information on customer purchase behavior across various a
 
 Therefore Random Forest will be used for the next part, optimizing the model.
 
+The <mark>properties</mark> of the noble gases can be well explained by modern theories of atomic structure: Their <mark>outer shell of valence electrons</mark> is 
 
 ## Part 3: Model Optimization, Evaluation and Visualization Results  
 
@@ -140,13 +141,13 @@ Therefore Random Forest will be used for the next part, optimizing the model.
 
 #### 7.1 Optimized Model Scores
 
-| Score       | Training | Accuracy | Precision | Recall | F1 Score | ROC AUC |
-|-------------|----------|----------|-----------|--------|----------|---------|
-| Initial     | 100      | 95.67    | 99.15     | 90.62  | 94.69    | 95.02   |
-| Stacking    | 99.67    | 95.33    | 98.31     | 90.62  | 94.31    | 94.73   |
-| Rand Search | 97.25    | 95       | 97.48     | 90.62  | 93.93    | 94.44   |
-| SMOTE       | 97.42    | 95.67    | 97.52     | 92.19  | 94.78    | 95.22   |
 
+| Score Type | Training  | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+|------------|:---------:|:--------:|:---------:|:------:|:--------:|:-------:|
+| Initial    | 100.00%   | 95.67%   | 99.15%    | 90.62% | 94.69%   | 95.02%  |
+| Rd Search  | 97.25%    | 95.00%   | 97.48%    | 90.62% | 93.93%   | 94.44%  |
+| Stacking   | 99.67%    | 95.33%   | 98.31%    | 90.62% | 94.31%   | 94.73%  |
+| SMOTE      | 97.42%    | 95.67%   | 97.52%    | 92.19% | 94.78%   | **95.22%** |
 
 #### 7.2 Optimized Model Scores Comparisons
 
@@ -198,18 +199,18 @@ Created an interactive dashboard (Dash App) that updates in real-time with dropd
 
 #### 9.4 Feature Importance Across Optimized Models: Insights and Conclusions
 ##### Insights:
-- **Time Spent on Website** and **Age** are the most important features in predicting outcomes across all models, showing strong predictive power.
-- The **Stacking Model** seems to emphasize *Annual Income* and downplays *Discounts Availed* and *Loyalty Program*.
-- **Random Search** slightly reduces the importance of features like *Age* and *Loyalty Program* compared to **Initial** and **SMOTE models**.
+- **_Time Spent on Website_** and **_Age_** are the most important features in predicting outcomes across all models, showing strong predictive power.
+- The **Stacking Model** seems to emphasize **_Annual Income_** and downplays **_Discounts Availed_** and **_Loyalty Program._**  
+- **Random Search** slightly reduces the importance of features like **_Age_** and **_Loyalty Program_** compared to **Initial** and **SMOTE models**.
 - **SMOTE** retains similar importance to the **Initial model** for all features, suggesting it doesn't drastically shift feature importance but rather balances class predictions.
 
 ##### Conclusions:
 - **Time Spent on Website** is consistently the top feature, while Stacking and Random Search provide nuanced changes in how other features are weighted.
-- The **Stacking model** highlights *Annual Income* more strongly, while *Discounts Availed* is less influential compared to the **Initial model**. The **SMOTE model** maintains similar importance values as the **Initial**, indicating that its main impact is on balancing class predictions rather than altering feature importance.
+- The **Stacking model** highlights **_Annual Income_** more strongly, while **_Discounts Availed_** is less influential compared to the **Initial model**. The **SMOTE model** maintains similar importance values as the **Initial**, indicating that its main impact is on balancing class predictions rather than altering feature importance.
 
 
 # Noteworthy Pain Points and Learning Experiences
-There were many pain points and learning experiences throughout this project. The first would be to ensure that I had a supportive team member who also contributed to this project. I also made an incorrect calculation in the beginning of this project thinking that the class imbalance of my dataset was  not as large as it was. In hindsight, I should have used SMOTE immediately after  I split the data into training and testing sets so I could evaluate the model performance on unseen data and create a more balanced training set prior to testing. 
+There were many pain points and learning experiences throughout this project. The first would be to ensure that I had a supportive team member who also contributed to this project. I also made an incorrect calculation in the beginning of this project thinking that the class imbalance of my dataset was  not as large as it was. In hindsight, I should have used SMOTE immediately after  I split the data into training and testing sets so I could evaluate the model performance on unseen data and create a more balanced training set prior to testing. I also should have completed feature engenering between some of the high performing columns such as multiplying time on website by Discounts Availed.
 
 # Opportunities for Further Research and Exploration
 1. **Prioritize Website Engagement in Campaigns:**
@@ -231,5 +232,12 @@ There were many pain points and learning experiences throughout this project. Th
 - I also took advantage of [Xpert Learning Assistant](https://bootcampspot.instructure.com/courses/6141/external_tools/313) to help with coding errors.
 - This project utilized assistance from [ChatGPT](https://openai.com/chatgpt), an AI language model developed by OpenAI, for generating code snippets, explanations, and guidance.
 
+The <mark>properties</mark> of the noble gases can be well explained by modern theories of atomic structure: Their <mark>outer shell of valence electrons</mark> is 
+
+
+**This is in bold, _italics_, ~~and strikethrough~~**
+
+What factors contribute most to lead conversion?
+How can we prioritize high-value leads?
 
 
