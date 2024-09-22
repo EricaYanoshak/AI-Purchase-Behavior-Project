@@ -23,12 +23,12 @@ Phase 2 is the crux of the project and focuses on predicting customer purchase b
 
 In addition to the files above, dataset and presentation files also reside in the Phase 2 folder
 
-#### [Dataset Files](../Phase_2/Dataset_Files)
-- [Predicting Customer Purchase Behavior Dataset](../Phase_2/Dataset_Files/customer_purchase_data.csv)
-- [oring_df Dataframe](../Phase_2/Dataset_Files/oring_customer_purchase_data.csv)
+#### [Dataset Files](./Phase_2/Dataset_Files)
+- [Predicting Customer Purchase Behavior Dataset](./Phase_2/Dataset_Files/customer_purchase_data.csv)
+- [oring_df Dataframe](./Phase_2/Dataset_Files/oring_customer_purchase_data.csv)
 
-#### [Presentation Files](../Phase_2/Presentation_Files)
-- [Presentation in PDF form](../Phase_2/Presentation_Files/Project_2_Presentation.pdf)
+#### [Presentation Files](./Phase_2/Presentation_Files)
+- [Presentation in PDF form](./Phase_2/Presentation_Files/Project_2_Presentation.pdf)
 - [Presentation in Google Powerpoint form](https://docs.google.com/presentation/d/1mbZxJYl2kmvrOtxgugkeUxmTGcqD68tFVBBpztCAZHs/edit?usp=sharing)
 
 
