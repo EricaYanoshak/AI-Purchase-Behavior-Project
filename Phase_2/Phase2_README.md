@@ -172,7 +172,6 @@ Ensure you have the following libraries installed:
   * `pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboost plotly dash`
 
 ### Usage
-https://github.com/EricaYanoshak/AI-Purchase-Behavior-Project/tree/main?tab=readme-ov-file
 1. Clone the Repository: `git clone https://github.com/EricaYanoshak/AI-Purchase-Behavior-Project`
 2. Navigate to the Project Directory: `cd AI-Purchase-Behavior-Project`
 3. Run the Notebook or Script: `Project2_Phase2_Final.ipynb`
