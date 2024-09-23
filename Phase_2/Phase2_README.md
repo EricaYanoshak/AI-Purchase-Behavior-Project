@@ -172,18 +172,19 @@ Ensure you have the following libraries installed:
   * `pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboost plotly dash`
 
 ### Usage
-1. Clone the Repository: `git clone https://github.com/yourusername/AI-Purchase-Behavior-Project`
+https://github.com/EricaYanoshak/AI-Purchase-Behavior-Project/tree/main?tab=readme-ov-file
+1. Clone the Repository: `git clone https://github.com/EricaYanoshak/AI-Purchase-Behavior-Project`
 2. Navigate to the Project Directory: `cd AI-Purchase-Behavior-Project`
-3. Run the Notebook or Script:
-  * If using Jupyter Notebook: `jupyter notebook customer_purchase_prediction.ipynb`
-  * If using a Python script: `python customer_purchase_prediction.py`
+3. Run the Notebook or Script: `Project2_Phase2_Final.ipynb`
+  * If using Jupyter Notebook: `jupyter notebook Project2_Phase2_Final.ipynb`
+  * If using a Python script: `python Project2_Phase2_Final.py`
 
 ## Results, Insights and Next Steps
 ### Optimized Models 
-The optimized Random Forest Classifier after hyperparameter tuning and SMOTE application, SMOTE model, offers the best balance across all metrics, particularly in recall, F1 score, and ROC AUC. It’s especially suitable for scenarios where identifying positive cases (e.g., customers likely to make a purchase) is crucial. The Stacking Model also performs well but focuses slightly more on precision.
+The optimized **Random Forest** Classifier after **hyperparameter tuning** and **SMOTE application**, SMOTE model, offers the best balance across all metrics, particularly in recall, F1 score, and ROC AUC. It’s especially suitable for scenarios where identifying positive cases (e.g., customers likely to make a purchase) is crucial. The Stacking Model also performs well but focuses slightly more on precision.
 
 ### Feature Importance 
-The most important predictors of customer purchase behavior are Time Spent on Website, Age, and Discounts Availed. Models that address class imbalance (like SMOTE) tend to place higher importance on discounts and loyalty programs. Understanding these key drivers can help businesses target marketing strategies to improve conversion rates.
+The most important predictors of customer purchase behavior are **Time Spent on Website**, **Age**, and **Discounts Availed**. Models that address class imbalance (like SMOTE) tend to place higher importance on discounts and loyalty programs. Understanding these key drivers can help businesses target marketing strategies to improve conversion rates.
 
 1. **Time Spent on Website:** consistently **the most important feature** across all models, indicating it is a significant predictor of purchase behavior.
 2. **Age:** consistently ranked as the **second most important**, highlighting its key role in determining purchasing behavior.
